@@ -2,7 +2,7 @@
 
 ## Description
 
-This application was designed to be used internally to monitor the network status of Road Side Units (RSUs). This app monitors IPv4, IPv6 and DSRC network statuses and provides information visually on a map as well as charts and graphs in a dashboard format. It also provides information for active Traveler Information Messages (TIMs) and vehicle counts past an RSU.
+This application is used internally to monitor the network status of Road Side Units (RSUs). This app monitors IPv4, IPv6 and DSRC network statuses and provides information visually on a map as well as charts and graphs in a dashboard format. It also provides information for active Traveler Information Messages (TIMs) and vehicle counts past an RSU.
 
 ## Release Notes
 
