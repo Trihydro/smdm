@@ -1,0 +1,216 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 27.97150164413592,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "7926844100216399-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "7926844100216399-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 72.0284983558641,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "7926844100216399-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "7926844100216399-2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "7926844100216399-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#021a36",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#fff"
+        },
+        "text": "RSU Network"
+      }
+    },
+    {
+      "id": "7926844100216399-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "count",
+        "type": "pie",
+        "categoryField": "NETWORK_STATUS",
+        "dateConfig": null,
+        "sortOrder": {
+          "isAsc": true,
+          "isLabelAxis": true
+        },
+        "maxLabels": 100,
+        "backgroundColor": "#021a36",
+        "seriesStyle": {
+          "styles": [
+            {
+              "name": "pie~not-field",
+              "style": {
+                "color": [
+                  "#68D2E0",
+                  "#087E92",
+                  "#47BCF5",
+                  "#FBE66A",
+                  "#F29157",
+                  "#C8501D"
+                ]
+              },
+              "label": "pie~not-field"
+            }
+          ],
+          "type": "custom",
+          "customColor": {
+            "categories": [
+              {
+                "uniqueID": "8056313067142533",
+                "text": "gray",
+                "label": "IPv4/IPv6 - status other",
+                "color": "#c0c0c0",
+                "id": "gray"
+              },
+              {
+                "uniqueID": "1639610728437797",
+                "text": "green",
+                "label": "IPv4/IPv6 - status up",
+                "color": "#32cd32",
+                "id": "green"
+              },
+              {
+                "uniqueID": "8282404526545726",
+                "text": "orange",
+                "label": "IPv4 - status up",
+                "color": "#ff8c00",
+                "id": "orange"
+              },
+              {
+                "uniqueID": "22572047208703006",
+                "text": "red",
+                "label": "IPv4/IPv6 - status down",
+                "color": "#ff0000",
+                "id": "red"
+              },
+              {
+                "uniqueID": "5296389855785002",
+                "text": "yellow",
+                "label": "IPv6 - status up",
+                "color": "#ffff00",
+                "id": "yellow"
+              }
+            ],
+            "others": [
+              {
+                "uniqueID": "6623351871763168",
+                "text": "Null",
+                "label": "Null",
+                "color": "#c0c0c0",
+                "id": "null"
+              },
+              {
+                "uniqueID": "77159672450664",
+                "text": "Others",
+                "label": "Others",
+                "color": "#c0c0c0",
+                "id": "others"
+              }
+            ]
+          }
+        },
+        "showLegend": false,
+        "legendTextColor": "#fff",
+        "showDataLabel": true,
+        "dataLabelColor": "#fff",
+        "innerRadius": 0
+      }
+    },
+    {
+      "id": "7926844100216399-3",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#fff"
+        },
+        "text": "Description: additional information about this infographic."
+      }
+    }
+  ],
+  "name": "pie",
+  "wid": "7926844100216399",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FROM_FRAMEWORK",
+    "name": "RSU Network - existing sites query for charts",
+    "frameWorkDsId": "map~SMDM_RSU_Network_v2_6912~19658523445450848",
+    "useSelection": false,
+    "filterByExtent": true
+  }
+}

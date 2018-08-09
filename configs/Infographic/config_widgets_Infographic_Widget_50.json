@@ -1,0 +1,195 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 27.97150164413592,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "7076685874899102-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "7076685874899102-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 72.0284983558641,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "7076685874899102-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "7076685874899102-2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "7076685874899102-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#021a36",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#fff"
+        },
+        "text": "DSRC Status"
+      }
+    },
+    {
+      "id": "7076685874899102-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "count",
+        "type": "pie",
+        "categoryField": "DSRC_STATUSDESCRIPTION",
+        "dateConfig": null,
+        "sortOrder": {
+          "isAsc": true,
+          "isLabelAxis": true
+        },
+        "maxLabels": 100,
+        "backgroundColor": "#021a36",
+        "seriesStyle": {
+          "styles": [
+            {
+              "name": "pie~not-field",
+              "style": {
+                "color": [
+                  "#68D2E0",
+                  "#087E92",
+                  "#47BCF5",
+                  "#FBE66A",
+                  "#F29157",
+                  "#C8501D"
+                ]
+              },
+              "label": "pie~not-field"
+            }
+          ],
+          "type": "custom",
+          "customColor": {
+            "categories": [
+              {
+                "uniqueID": "26577366326257135",
+                "text": "Node status is Down.",
+                "label": "Node status is Down.",
+                "color": "#ff0000",
+                "id": "Node status is Down."
+              },
+              {
+                "uniqueID": "7228480602939997",
+                "text": "Node status is Up.",
+                "label": "Node status is Up.",
+                "color": "#32cd32",
+                "id": "Node status is Up."
+              }
+            ],
+            "others": [
+              {
+                "uniqueID": "21851358101761087",
+                "text": "Null",
+                "label": "Unknown",
+                "color": "#c0c0c0",
+                "id": "null"
+              },
+              {
+                "uniqueID": "25178858031397255",
+                "text": "Others",
+                "label": "Others",
+                "color": "#c0c0c0",
+                "id": "others"
+              }
+            ]
+          }
+        },
+        "showLegend": false,
+        "legendTextColor": "#fff",
+        "showDataLabel": true,
+        "dataLabelColor": "#fff",
+        "innerRadius": 0
+      }
+    },
+    {
+      "id": "7076685874899102-3",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#fff"
+        },
+        "text": "Description: additional information about this infographic."
+      }
+    }
+  ],
+  "name": "pie",
+  "wid": "7076685874899102",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FROM_FRAMEWORK",
+    "name": "RSU Network - existing sites query for charts",
+    "frameWorkDsId": "map~SMDM_RSU_Network_v2_6912~19658523445450848",
+    "useSelection": false,
+    "filterByExtent": true
+  }
+}

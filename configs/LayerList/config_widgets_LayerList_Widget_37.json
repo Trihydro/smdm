@@ -1,0 +1,37 @@
+{
+  "showLegend": true,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "EnableOrDisablePopup": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "SMDM_RSU_Network_v2_6912": {
+      "display": true
+    },
+    "SMDM_RSU_DSRC_v2_4367": {
+      "display": true
+    },
+    "Construction_6099": {
+      "display": true
+    },
+    "VSL_1167": {
+      "display": true
+    },
+    "Incidents_4914": {
+      "display": true
+    },
+    "Road_Conditions_4799": {
+      "display": true
+    },
+    "Road_Conditions_4799_0": {
+      "display": true
+    },
+    "SMDM_RSU_Network_v2_8274": {
+      "display": false
+    }
+  }
+}

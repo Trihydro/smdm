@@ -1,0 +1,742 @@
+{
+  "layerInfos": [
+    {
+      "name": "RSU Network",
+      "id": "SMDM_RSU_Network_v2_6912",
+      "layer": {
+        "url": "https://gisd03.gisits.local:6443/arcgis/rest/services/Connected_Vehicle/SMDM_RSU_Network_v2/MapServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "DEVICEID",
+            "alias": "DEVICEID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SITENAME",
+            "alias": "Sitename",
+            "show": true
+          },
+          {
+            "name": "STATUS",
+            "alias": "Status",
+            "show": true
+          },
+          {
+            "name": "STATUS_EXISTING",
+            "alias": "STATUS_EXISTING",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LATITUDE",
+            "alias": "LATITUDE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LONGITUDE",
+            "alias": "LONGITUDE",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "VEHICLE_ID_COUNT",
+            "alias": "Vehicle ID Count (past 24 hours)",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "COMMENTS1",
+            "alias": "COMMENTS1",
+            "show": false
+          },
+          {
+            "name": "IPV4_STATUS",
+            "alias": "IPV4_STATUS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "IPV4_STATUS_UP",
+            "alias": "IPV4_STATUS_UP",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "IPV4_IP_ADDRESS",
+            "alias": "IPv4 IP Address",
+            "show": true
+          },
+          {
+            "name": "IPV4_STATUSDESCRIPTION",
+            "alias": "IPv4 Status",
+            "show": true
+          },
+          {
+            "name": "IPV4_LASTSYNC",
+            "alias": "IPv4 Last Sync",
+            "show": true,
+            "format": {
+              "dateFormat": "shortDateLongTime"
+            }
+          },
+          {
+            "name": "IPV6_STATUS",
+            "alias": "IPV6_STATUS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "IPV6_STATUS_UP",
+            "alias": "IPV6_STATUS_UP",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "IPV6_IP_ADDRESS",
+            "alias": "IPv6 IP Address",
+            "show": true
+          },
+          {
+            "name": "IPV6_STATUSDESCRIPTION",
+            "alias": "IPv6 Status",
+            "show": true
+          },
+          {
+            "name": "IPV6_LASTSYNC",
+            "alias": "IPv6 Last Sync",
+            "show": true,
+            "format": {
+              "dateFormat": "shortDateLongTime"
+            }
+          },
+          {
+            "name": "DSRC_STATUS",
+            "alias": "DSRC_STATUS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DSRC_STATUS_UP",
+            "alias": "DSRC_STATUS_UP",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "DSRC_STATUSDESCRIPTION",
+            "alias": "DSRC_STATUSDESCRIPTION",
+            "show": false
+          },
+          {
+            "name": "DSRC_LASTSYNC",
+            "alias": "DSRC_LASTSYNC",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "DSRC_IP_ADDRESS",
+            "alias": "DSRC_IP_ADDRESS",
+            "show": false
+          },
+          {
+            "name": "NETWORK_STATUS",
+            "alias": "NETWORK_STATUS",
+            "show": false
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          },
+          {
+            "name": "DSRC_NETWORK_STATUS",
+            "alias": "DSRC_NETWORK_STATUS",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "RSU DSRC",
+      "id": "SMDM_RSU_DSRC_v2_4367",
+      "layer": {
+        "url": "https://gisd03.gisits.local:6443/arcgis/rest/services/Connected_Vehicle/SMDM_RSU_DSRC_v2/MapServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "DEVICEID",
+            "alias": "DEVICEID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "SITENAME",
+            "alias": "Sitename",
+            "show": true
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS",
+            "show": false
+          },
+          {
+            "name": "STATUS_EXISTING",
+            "alias": "STATUS_EXISTING",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LATITUDE",
+            "alias": "LATITUDE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LONGITUDE",
+            "alias": "LONGITUDE",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "VEHICLE_ID_COUNT",
+            "alias": "VEHICLE_ID_COUNT",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "COMMENTS1",
+            "alias": "COMMENTS1",
+            "show": false
+          },
+          {
+            "name": "IPV4_STATUS",
+            "alias": "IPV4_STATUS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "IPV4_STATUS_UP",
+            "alias": "IPV4_STATUS_UP",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "IPV4_STATUSDESCRIPTION",
+            "alias": "IPV4_STATUSDESCRIPTION",
+            "show": false
+          },
+          {
+            "name": "IPV4_LASTSYNC",
+            "alias": "IPV4_LASTSYNC",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "IPV4_IP_ADDRESS",
+            "alias": "IPV4_IP_ADDRESS",
+            "show": false
+          },
+          {
+            "name": "IPV6_STATUS",
+            "alias": "IPV6_STATUS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "IPV6_STATUS_UP",
+            "alias": "IPV6_STATUS_UP",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "IPV6_STATUSDESCRIPTION",
+            "alias": "IPV6_STATUSDESCRIPTION",
+            "show": false
+          },
+          {
+            "name": "IPV6_LASTSYNC",
+            "alias": "IPV6_LASTSYNC",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "name": "IPV6_IP_ADDRESS",
+            "alias": "IPV6_IP_ADDRESS",
+            "show": false
+          },
+          {
+            "name": "DSRC_STATUS",
+            "alias": "DSRC_STATUS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DSRC_STATUS_UP",
+            "alias": "DSRC_STATUS_UP",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DSRC_IP_ADDRESS",
+            "alias": "DSRC IP Address",
+            "show": true
+          },
+          {
+            "name": "DSRC_STATUSDESCRIPTION",
+            "alias": "DSRC Status",
+            "show": true
+          },
+          {
+            "name": "DSRC_LASTSYNC",
+            "alias": "DSRC Last Sync",
+            "show": true,
+            "format": {
+              "dateFormat": "shortDateLongTime"
+            }
+          },
+          {
+            "name": "NETWORK_STATUS",
+            "alias": "NETWORK_STATUS",
+            "show": false
+          },
+          {
+            "name": "DSRC_NETWORK_STATUS",
+            "alias": "DSRC_NETWORK_STATUS",
+            "show": false
+          },
+          {
+            "name": "Shape",
+            "alias": "Shape",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Construction",
+      "id": "Construction_6099",
+      "layer": {
+        "url": "https://agserverd01.gisits.local/arcgis/rest/services/Connected_Vehicle/Construction/MapServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "PROJECT_NAME",
+            "alias": "Project Name",
+            "show": true
+          },
+          {
+            "name": "ROAD",
+            "alias": "Road",
+            "show": true
+          },
+          {
+            "name": "MILEPOSTS",
+            "alias": "Mileposts",
+            "show": true
+          },
+          {
+            "name": "SURFACE",
+            "alias": "Surface",
+            "show": true
+          },
+          {
+            "name": "DELAYS",
+            "alias": "Delays",
+            "show": true
+          },
+          {
+            "name": "DESCRIPTION",
+            "alias": "Description",
+            "show": true
+          },
+          {
+            "name": "COMPLETION_DATE",
+            "alias": "Completion Date",
+            "show": true
+          },
+          {
+            "name": "PROJECT_NUMBER",
+            "alias": "Project Number",
+            "show": true
+          },
+          {
+            "name": "WYDOT_CONTACT",
+            "alias": "WYDOT Contact",
+            "show": true
+          },
+          {
+            "name": "CONTRACTOR_CONTACT",
+            "alias": "Contractor Contact",
+            "show": true
+          },
+          {
+            "name": "LAST_UPDATED",
+            "alias": "LAST_UPDATED",
+            "show": false,
+            "format": {
+              "dateFormat": "longMonthDayYear"
+            }
+          },
+          {
+            "name": "SHAPE",
+            "alias": "SHAPE",
+            "show": false
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "VSL",
+      "id": "VSL_1167",
+      "layer": {
+        "url": "https://agserverd01.gisits.local/arcgis/rest/services/Connected_Vehicle/VSL/MapServer/0",
+        "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "DISPLAYNAME",
+            "alias": "Display Name"
+          },
+          {
+            "show": true,
+            "name": "RPTTIME",
+            "alias": "Report Time"
+          },
+          {
+            "show": true,
+            "name": "POSTEDSPEED",
+            "alias": "Posted Speed"
+          },
+          {
+            "show": false,
+            "name": "SPEEDREDUCED",
+            "alias": "SPEEDREDUCED"
+          },
+          {
+            "show": false,
+            "name": "LONGITUDE",
+            "alias": "LONGITUDE"
+          },
+          {
+            "show": false,
+            "name": "LATITUDE",
+            "alias": "LATITUDE"
+          },
+          {
+            "show": false,
+            "name": "Shape",
+            "alias": "Shape"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Incidents",
+      "id": "Incidents_4914",
+      "layer": {
+        "url": "https://agserverd01.gisits.local/arcgis/rest/services/Connected_Vehicle/Incidents/MapServer/0",
+        "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "TITLE",
+            "alias": "Title"
+          },
+          {
+            "show": true,
+            "name": "DESCRIPTION",
+            "alias": "Description"
+          },
+          {
+            "show": true,
+            "name": "RPTTIME",
+            "alias": "Report Time"
+          },
+          {
+            "show": true,
+            "name": "LINKURL",
+            "alias": "Link URL"
+          },
+          {
+            "show": true,
+            "name": "LINKTEXT",
+            "alias": "Link Text"
+          },
+          {
+            "show": false,
+            "name": "INCIDENTTYPE",
+            "alias": "Incident Type"
+          },
+          {
+            "show": false,
+            "name": "LONGITUDE",
+            "alias": "LONGITUDE"
+          },
+          {
+            "show": false,
+            "name": "LATITUDE",
+            "alias": "LATITUDE"
+          },
+          {
+            "show": false,
+            "name": "Shape",
+            "alias": "Shape"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Road Conditions",
+      "id": "Road_Conditions_4799_0",
+      "layer": {
+        "url": "https://agserverd01.gisits.local/arcgis/rest/services/Connected_Vehicle/Road_Conditions/MapServer/0",
+        "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": false,
+            "name": "SHAPE",
+            "alias": "SHAPE"
+          },
+          {
+            "show": true,
+            "name": "ROAD_CODE",
+            "alias": "Road Code"
+          },
+          {
+            "show": false,
+            "name": "IMPACT_MAP",
+            "alias": "IMPACT_MAP"
+          },
+          {
+            "show": true,
+            "name": "CONDITIONS",
+            "alias": "Conditions"
+          },
+          {
+            "show": true,
+            "name": "ADVISORIES",
+            "alias": "Advisories"
+          },
+          {
+            "show": true,
+            "name": "RPT_TIME",
+            "alias": "Report Time"
+          },
+          {
+            "show": true,
+            "name": "LABEL",
+            "alias": "Label"
+          },
+          {
+            "show": false,
+            "name": "EIGHT_CODES",
+            "alias": "EIGHT_CODES"
+          },
+          {
+            "show": false,
+            "name": "NINE_CODES",
+            "alias": "NINE_CODES"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Active TIMs",
+      "id": "SMDM_RSU_Network_v2_8274",
+      "layer": {
+        "url": "https://gisd03.gisits.local:6443/arcgis/rest/services/Connected_Vehicle/SMDM_RSU_Network_v2/MapServer/2",
+        "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": false,
+            "name": "DEVICEID",
+            "alias": "DEVICEID"
+          },
+          {
+            "show": false,
+            "name": "RSU_ID",
+            "alias": "RSU_ID"
+          },
+          {
+            "show": true,
+            "name": "SITENAME",
+            "alias": "Sitename"
+          },
+          {
+            "show": true,
+            "name": "TIM_ID",
+            "alias": "TIM ID"
+          },
+          {
+            "show": true,
+            "name": "TIM_TYPE",
+            "alias": "TIM Type"
+          },
+          {
+            "show": true,
+            "name": "TIM_DESCRIPTION",
+            "alias": "TIM Description"
+          },
+          {
+            "show": true,
+            "name": "ROUTE",
+            "alias": "Route"
+          },
+          {
+            "show": true,
+            "name": "DIRECTION",
+            "alias": "Direction"
+          },
+          {
+            "show": true,
+            "name": "MILEPOST_START",
+            "alias": "Milepost Start"
+          },
+          {
+            "show": true,
+            "name": "MILEPOST_STOP",
+            "alias": "Milepost Stop"
+          },
+          {
+            "show": true,
+            "name": "TIM_START",
+            "alias": "TIM Start"
+          },
+          {
+            "show": true,
+            "name": "TIM_END",
+            "alias": "TIM End"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true
+}

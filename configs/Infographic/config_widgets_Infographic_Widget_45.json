@@ -1,0 +1,156 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 26.048476918947934,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "514391390946074-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "514391390946074-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 73.95152308105207,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "514391390946074-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "514391390946074-2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "514391390946074-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#021a36",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#fff"
+        },
+        "text": "RSU Installation Status"
+      }
+    },
+    {
+      "id": "514391390946074-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "count",
+        "type": "bar",
+        "categoryField": "STATUS",
+        "dateConfig": null,
+        "sortOrder": {
+          "isAsc": true,
+          "isLabelAxis": false
+        },
+        "backgroundColor": "#021a36",
+        "seriesStyle": {
+          "styles": [
+            {
+              "style": {
+                "color": [
+                  "#f2c111"
+                ]
+              },
+              "name": "count~count",
+              "label": "count~count"
+            }
+          ],
+          "type": "series"
+        },
+        "showLegend": false,
+        "legendTextColor": "#fff",
+        "showHorizontalAxis": true,
+        "horizontalAxisTextColor": "#fff",
+        "showVerticalAxis": true,
+        "verticalAxisTextColor": "#fff"
+      }
+    },
+    {
+      "id": "514391390946074-3",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#fff"
+        },
+        "text": "Description: additional information about this infographic."
+      }
+    }
+  ],
+  "name": "bar",
+  "wid": "514391390946074",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FROM_FRAMEWORK",
+    "name": "RSU Network - query",
+    "frameWorkDsId": "map~SMDM_RSU_Network_v2_6912~6335990363641169",
+    "useSelection": false,
+    "filterByExtent": true
+  }
+}

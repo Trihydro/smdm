@@ -1,0 +1,179 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 26.048476918947934,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "28569682489237813-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "28569682489237813-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 73.95152308105207,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "28569682489237813-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "28569682489237813-2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "28569682489237813-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#021a36",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#fff"
+        },
+        "text": "RSU Network (diagram)"
+      }
+    },
+    {
+      "id": "28569682489237813-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "feature",
+        "type": "column",
+        "labelField": "SITENAME",
+        "valueFields": [
+          "IPV4_STATUS_UP",
+          "IPV6_STATUS_UP",
+          "DSRC_STATUS_UP"
+        ],
+        "sortOrder": {
+          "field": "LONGITUDE",
+          "isAsc": true
+        },
+        "backgroundColor": "#021a36",
+        "seriesStyle": {
+          "styles": [
+            {
+              "style": {
+                "color": [
+                  "#ff8c00"
+                ]
+              },
+              "name": "IPV4_STATUS_UP",
+              "label": "IPV4_STATUS_UP"
+            },
+            {
+              "style": {
+                "color": [
+                  "#ffff00"
+                ]
+              },
+              "name": "IPV6_STATUS_UP",
+              "label": "IPV6_STATUS_UP"
+            },
+            {
+              "style": {
+                "color": [
+                  "#4169e1"
+                ]
+              },
+              "name": "DSRC_STATUS_UP",
+              "label": "DSRC_STATUS_UP"
+            }
+          ],
+          "type": "series"
+        },
+        "showLegend": false,
+        "legendTextColor": "#fff",
+        "showHorizontalAxis": true,
+        "horizontalAxisTextColor": "#fff",
+        "showVerticalAxis": false,
+        "verticalAxisTextColor": "#fff",
+        "stack": "normal"
+      }
+    },
+    {
+      "id": "28569682489237813-3",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#fff"
+        },
+        "text": "Description: additional information about this infographic."
+      }
+    }
+  ],
+  "name": "stacked_column",
+  "wid": "28569682489237813",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FROM_FRAMEWORK",
+    "name": "RSU Network - query",
+    "frameWorkDsId": "map~SMDM_RSU_Network_v2_6912~6335990363641169",
+    "useSelection": false,
+    "filterByExtent": true
+  }
+}
