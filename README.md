@@ -6,8 +6,9 @@ This application is used internally to monitor the network status of Road Side U
 
 ## Release Notes
 
-### Version 2.0
-- First upload to GitHub
+### Release 1
+- Developed an interactive map and dashboard to provide real-time IPv4, IPv6 and DSRC network status and active TIMs for RSUs.
+- Implemented the functionality to see the vehicle counts past an RSU within the last 24 hours.
 
 ## Getting Started
 
