@@ -2,7 +2,7 @@
 
 ## Description
 
-This application is used internally to monitor the network status of Road Side Units (RSUs). This app monitors IPv4, IPv6 and DSRC network statuses and provides information visually on a map as well as charts and graphs in a dashboard format. It also provides information for active Traveler Information Messages (TIMs) and vehicle counts past an RSU.
+This application is used internally to monitor the network status of Road Side Units (RSUs). This app monitors IPv4, IPv6 and DSRC network status and provides information visually on a map as well as charts and graphs in a dashboard format. It also provides information for active Traveler Information Messages (TIMs) and vehicle counts past an RSU.
 
 ## Release Notes
 
@@ -64,15 +64,15 @@ The RSU Network and RSU DSRC layers use the same data source and the values outl
   - IPv4 network status. This column is used to symbolize the RSU Network layer.
   - Expected values
     - green
-      - IPv6 and IPv4 statuses are up.
+      - IPv6 and IPv4 status are up.
     - yellow
       - IPv6 status is up IPv4 status is down.
     - orange
       - IPv6 status is down IPv4 status is up.
     - red
-      - IPv6 and IPv4 statuses are down.
+      - IPv6 and IPv4 status are down.
     - gray
-      - IPv6 or IPv4 statuses are other.
+      - IPv6 or IPv4 status are other.
     - not in service
       - RSU not in service.
     - proposed
